@@ -14,6 +14,7 @@
 		C08685B91B8FF8F3006E4A8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08685B81B8FF8F3006E4A8B /* Images.xcassets */; };
 		C08685BC1B8FF8F3006E4A8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C08685BA1B8FF8F3006E4A8B /* LaunchScreen.xib */; };
 		C08685C81B8FF8F3006E4A8B /* SQLite3TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C08685C71B8FF8F3006E4A8B /* SQLite3TestTests.m */; };
+		C08685D21B8FF916006E4A8B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C08685D11B8FF916006E4A8B /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C08685C11B8FF8F3006E4A8B /* SQLite3TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLite3TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08685C61B8FF8F3006E4A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C08685C71B8FF8F3006E4A8B /* SQLite3TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLite3TestTests.m; sourceTree = "<group>"; };
+		C08685D11B8FF916006E4A8B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08685D21B8FF916006E4A8B /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 		C08685AB1B8FF8F3006E4A8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C08685D11B8FF916006E4A8B /* libsqlite3.dylib */,
 				C08685AC1B8FF8F3006E4A8B /* Info.plist */,
 				C08685AD1B8FF8F3006E4A8B /* main.m */,
 			);
@@ -297,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

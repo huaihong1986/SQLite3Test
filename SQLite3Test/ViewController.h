@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (copy, nonatomic) NSString *databaseFilePath;
 
+- (void)applicationWillResignActive:(NSNotification *)notification;
 @end
 
